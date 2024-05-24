@@ -1,0 +1,57 @@
+/* Login.css */
+.welcome-container {
+    text-align: center;
+    margin-block-end: 20px;
+  }
+  
+  .welcome-image {
+    inline-size: 100px; /* Adjust image width as needed */
+  }
+  
+  .welcome-text {
+    color: #f8f4f9; /* Set text color to #7303ac */
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    margin-block-start: 20px;
+  }
+  
+  .login-button {
+    --background: #7303ac !important; /* Ensure the custom color is applied */
+    color: white; /* Ensure text color contrast */
+    inline-size: 100%;
+  }
+  
+  .signup-text {
+    text-align: center;
+    margin-block-start: 20px;
+    color: #fff8f8; /* Link color */
+    cursor: pointer;
+  }
+  
+  .signup-text span {
+    color: #ffffff;
+  }
+  
+  .signup-text span:hover {
+    color: #e7e7e7;
+  }
+  
+  /* Added CSS for input styling */
+  ion-item {
+    --border-color: transparent; /* Set border color to transparent */
+    --inner-border-radius: 0; /* Set inner border radius to 0 */
+    --box-shadow: 0 2px 4px rgba(240, 18, 18, 0.1); /* Add box shadow for separation */
+    border: 1px solid #ccc; /* Add border */
+    margin-block-end: 10px; /* Add margin bottom */
+  }
+  
+  ion-item ion-input {
+    --padding-top: 10px; /* Adjust padding top to align text with labels */
+  }
+  
+  span{
+    text-decoration: underline;
+  }
